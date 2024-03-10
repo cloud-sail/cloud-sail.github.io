@@ -1,0 +1,46 @@
+{
+    "title": "My Game Development Roadmap",
+    "description": "To be a gameplay programmer/game AI programmer",
+    "author": "Yunfan He",
+    "language": "en",
+    "gitbook": ">=3.0.0",
+    "root": "./",
+    "structure": {
+      "readme": "README.md",
+      "summary": "SUMMARY.md"
+    },
+    "plugins": [
+      "toc",
+      "search",
+      "highlight",
+      "lunr",
+      "theme-default",
+      "expandable-chapters",
+      "interactive",
+      "github",
+      "anchor-navigation-ex",
+      "page-toc-button",
+      "splitter",
+      "sharing"
+    ],
+    "pluginsConfig": {
+      "toc": {
+        "addIntroduction": true
+      },
+      "sharing": {
+        "google": false,
+        "facebook": true,
+        "twitter": true
+      },
+      "theme-default": {
+        "showLevel": true
+      },
+      "anchor-navigation-ex": {
+        "associatedWithSummary": true,
+        "printLog": false,
+        "multipleH1": false,
+        "showLevel": true
+      }
+    }
+  }
+  
